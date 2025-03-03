@@ -16,7 +16,7 @@ getRecipes(){
 
 @Get(':id')
 getRecipe(id: string) {
-    return this.recipesService.createRecipe(id);
+    return this.recipesService.getRecipe(id);
 
 }
 
